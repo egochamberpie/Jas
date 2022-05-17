@@ -95,7 +95,7 @@ ul {
 }
 
 #holy-div {
-  display: absolute;
+  /*display: absolute;*/
   width: 100%;
   max-width: 100%;
 }
@@ -353,7 +353,7 @@ strong {
   }
   #image {
     width: 80%;
-    border-raidus: 3rem;
+    border-radius: 3rem;
   }
   #first-list {
     position: relative;
