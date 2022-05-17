@@ -1,0 +1,378 @@
+body {
+  background-color: #Cdd1d4;
+  font-size: 1.2rem;
+}
+
+#title {
+  text-align: center;
+}
+
+h1, #img-caption {
+  color: rgba(255,255,255,0);
+}
+
+#img-caption {
+  margin-top: 0.7rem;
+}
+
+#jason-becker-logo {
+  margin-top: -3.5rem;
+  max-width: 100%;
+}
+
+
+#img-div {
+  background: rgba(255,255,255,1);
+  background-image: url("http://jasonbecker.com/wp-content/uploads/2019/01/Jason-Becker_Triumphant-Hearts-Cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 40%; 
+  background-attachment: fixed;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  border-radius: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  
+  
+}
+
+#image {
+  width: 65%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  top: 1rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin: auto; 
+  border-radius: 6rem;
+}
+
+p, #lifeline, h3 {
+  text-align: center;
+}
+
+#lifeline {
+  background-color: rgba(37, 150, 190, 0.3);
+  margin: 0 auto;
+  width: 65rem;
+  border-radius: 1.2rem;
+  text-align: left;
+  line-height: 1.56rem;
+  padding: 1rem 0rem 1rem 0rem;
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 4rem;
+  text-align: left;
+  display: inline-block;
+
+}
+
+#second-list {
+  position: relative;
+  bottom: -0.05rem;
+  left: 0rem;
+  width: 40rem;
+  line-height: 1.7rem;
+  max-width: 100%;
+  list-style-type: none;
+}
+
+#second-list li:after {
+  content: "";
+  background: rgba(100,100,100,0.6);
+  position: absolute;
+  right: 8rem;
+  left: 4.4rem;
+  margin-top: 1.7rem;
+  height: 0.8px;
+  width: 45%;
+}
+
+#holy-div {
+  display: absolute;
+  width: 100%;
+  max-width: 100%;
+}
+
+strong {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  padding-right: 6rem;
+  color: rgba(100,0,0, 1);
+}
+
+#long-strong {
+  padding-right: 1.03rem;
+}
+
+#tribute-info {
+  background-color: rgba(47, 160, 200, 0.3);
+  margin: 0 auto;
+  width: 65rem;
+  line-height: 2rem;
+  border-radius: 1.2rem;
+  padding: 1rem 0rem 1rem 0rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 100%;
+}
+
+.tribute-info {
+  font-style: italic;
+}
+
+.his-page {
+  font-size: 1.25rem;
+  text-shadow: 2px 2px rgba(7, 50, 130, 0.1);
+}
+
+/*responsiveness*/
+
+
+@media all and (max-width: 1300px) {
+  #tribute-info {
+    width: 75%;
+  }
+  
+  #img-div {
+    background-position: 0% -14rem;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  #lifeline {
+    width: 85%;
+  }
+  
+  #img-div {
+    background-position: 50% -12rem;
+  }
+  #first-list {
+    width: 20%;
+  }
+   #second-list {
+    width: 65%;
+     padding-left: 2rem;
+  }
+  #tribute-info {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 780px) {
+  #image{
+    border-radius: 3rem;
+  }
+  #first-list {
+    width: 34%;
+    line-height: 1.6rem;
+    margin-right: -2rem;
+    padding: 0rem 0rem 0rem 3rem;
+    position: relative;
+    top: 0.25rem;
+  }
+  #second-list {
+    width: 60%;
+    padding-left: 0rem;
+  }
+  
+  .tribute-info {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0.4rem;
+    padding-bottom: 1.4rem;
+  }
+  
+  .more-info {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  #space {
+    padding-bottom: 2rem;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #lifeline, #tribute-info {
+    width: 90%;
+  }
+  #image {
+    border-radius: 2rem;
+    width: 80%;
+  }
+  #img-div {  
+    background-position: 40% -7rem;
+    width: 95%;
+    margin: auto;
+  }
+  #first-list {
+    width: 34%;
+    line-height: 1.8rem;
+    margin-right: -2rem;
+    padding: 0rem 0rem 0rem 3rem;
+    position: relative;
+    top: -1.2rem;
+  }
+  #second-list {
+    width: 50%;
+    padding-left: 2rem;
+  }  
+  #space {
+    padding-bottom: 6.7rem;
+    padding-top: 1.2rem;
+  }
+  #space-second {
+    padding-bottom: 1.1rem;
+  }
+  
+  #second-list li:after {
+    left: 2.5rem;
+  }
+  
+  .tribute-info {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1.7rem;
+  }
+  
+  #tribute-info {
+    width: 77%;
+  }
+  
+  .more-info {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 430px) {
+  #img-div {
+    background-position: 50% -8rem;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 1.1rem;
+  }
+  #image {
+    width: 75%;
+    border-radius: 1.3rem;
+  }
+  #lifeline {
+    width: 95%;
+  }
+  #first-list {
+    width: 34%;
+    line-height: 1.8rem;
+    margin-right: -2rem;
+    padding: 0rem 0rem 0rem 3rem;
+    position: relative;
+    top: -1.55rem;
+  }
+  #space {
+    padding-bottom: 9.8rem;
+    padding-top: 1.6rem;
+  }
+  #space-second {
+    margin-bottom: 0.5rem;
+    margin-top: -0.3rem;
+  }
+  #space-third {
+    margin-bottom: 0.5rem;
+    line-height: 1.2rem;
+  }
+  #second-list {
+    padding-left: 1rem;
+  }
+  
+  #tribute-info {
+    width: 85%;
+  }
+  .tribute-info {
+    width: 80%;
+  }
+  .more-info {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 379px) {
+  body {
+    font-size: 1.1rem;
+  }
+  #img-div {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  #image {
+    width: 75%;
+    border-radius: 1.1rem;
+  }
+  strong {
+    font-size: 1.3rem;
+  }
+  #first-list {
+    position: relative;
+    right: 1rem;
+  }
+  #second-list {
+    width: 55%;
+    padding-left: 1rem;
+    margin-left: -1.5rem;
+  }
+  #space {
+    padding-bottom: 8.7rem;
+    padding-top: 1.5rem;
+  }
+  #space-second {
+    margin-bottom: 0.5rem;
+    margin-top: -0.3rem;
+  }
+  #space-third {
+    margin-bottom: 0.5rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media all and (max-width: 330px) {
+  #img-div {
+    background-position: 50% -7rem;
+    border-radius: 1rem;
+    width: 100%;
+  }
+  body {
+    font-size: 1rem;
+  }
+  strong {
+    font-size: 1.4rem;
+  }
+  #image {
+    width: 80%;
+    border-raidus: 3rem;
+  }
+  #first-list {
+    position: relative;
+    right: 1rem;
+  }
+  #second-list {
+    width: 55%;
+    padding-left: 1rem;
+    margin-left: -1.5rem;
+  }
+}
+
+/* horizontal flips*/
+
+@media all and (max-width: 1370px) {
+  #img-div {
+    background-position: 50% -14rem;
+  }
+  
+}
+
+/* this project is beyond my capabilities of repair (currently!!). Well done but goodbye*/
